@@ -1,48 +1,51 @@
 # Minjae Kim · 김민재
 
-**Computer Vision · Medical Imaging · Deep Learning**
+**Graduate Student, Dongguk University**
 
-[GitHub](https://github.com/chal07088-stack)
+Computer Vision &nbsp;·&nbsp; Medical Imaging &nbsp;·&nbsp; Multimodal Learning
+
+<a href="mailto:chal0708@naver.com">Email</a> &nbsp;·&nbsp;
+<a href="https://github.com/chal07088-stack">GitHub</a>
 
 <br>
 
-I study how information from paired images can improve visual recognition, with a focus on bilateral diabetic retinopathy grading. My current research examines when information from the fellow eye helps a prediction—and when it can make it worse.
+I am a graduate student at Dongguk University, with expected graduation in December 2026. My research interests lie in computer vision and medical imaging, particularly how complementary information from multiple views or sensors can improve visual recognition.
+
+My current work spans bilateral diabetic retinopathy grading and camera–LiDAR fusion. I am interested in understanding when combining information helps, when it introduces errors, and how models can adapt to these differences.
+
+<br>
 
 ## Research
 
-### Bilateral Diabetic Retinopathy Grading
-*Ongoing research*
+**Bilateral Diabetic Retinopathy Grading.** *(Ongoing research)*  
+Retinal images from the two eyes contain related information, but disease severity can differ between eyes. I investigate boundary-wise correction and adaptive fusion methods that use fellow-eye information while accounting for bilateral asymmetry. This work compares simple fusion with learned utility, strength, and soft-gating mechanisms, with particular attention to cases where fusion improves an incorrect prediction or harms a correct one.
 
-Retinal images from the two eyes provide related information, but disease severity can differ between eyes. I investigate adaptive fusion methods that use this relationship while accounting for cases where bilateral correction may harm an otherwise correct prediction.
+**Camera–LiDAR Fusion.** *(Ongoing research)*  
+I am working on camera–LiDAR fusion for multimodal perception, exploring how visual and geometric information can complement one another. My broader interest is in methods that make effective use of the different information available from each sensor.
 
-My work focuses on:
-
-- **Boundary-wise correction:** modeling how fellow-eye information changes individual severity boundaries.
-- **Adaptive fusion:** comparing simple fusion with learned utility, strength, and soft-gating mechanisms.
-- **Benefit and harm analysis:** examining which predictions improve, which deteriorate, and how these changes differ across bilateral asymmetry groups.
-
-### Reliable Evaluation for Multi-stage Models
-
-I also examine how training and inference choices affect a multi-stage vision pipeline. This includes patient-level data separation, nested out-of-fold feature generation, checkpoint lineage, and the transfer of learned features between upstream models.
-
-Evaluation combines classification and ordinal metrics with patient-paired uncertainty estimates and subgroup analysis.
-
-## Research & Engineering
-
-**Model development**  
-Building and comparing multi-stage image classification and bilateral fusion pipelines.
-
-**Experimental analysis**  
-Controlled ablations, negative controls, failure-case analysis, and prediction-level diagnostics.
-
-**Reproducibility**  
-Tracking data splits, feature schemas, configurations, checkpoints, and file integrity.
-
-## Tools
-
-`Python` · `PyTorch` · `NumPy` · `pandas` · `scikit-learn`  
-`Git` · `Linux` · `PowerShell`
+**Reliable and Adaptive Information Fusion.** *(Ongoing research direction)*  
+Across these projects, I study the conditions under which adaptive fusion offers an advantage over simpler alternatives. My work includes controlled comparisons, failure-case analysis, and evaluation of subgroup differences. In medical imaging, I use patient-level data separation and out-of-fold evaluation to examine both predictive performance and the reliability of the evaluation pipeline.
 
 <br>
 
-<sub>Research descriptions refer to ongoing work; they do not imply peer-reviewed publication or clinical validation.</sub>
+## Education
+
+**Dongguk University**  
+Graduate studies &nbsp;·&nbsp; Expected graduation: December 2026
+
+<br>
+
+## Research & Engineering
+
+**Deep learning pipelines** — Multi-stage image classification, bilateral correction, and adaptive fusion.
+
+**Experimental evaluation** — Controlled ablations, negative controls, ordinal metrics, and patient-paired bootstrap analysis.
+
+**Reproducible research** — Data split validation, feature and checkpoint lineage tracking, and experiment configuration management.
+
+<br>
+
+## Tools
+
+`Python` &nbsp;`PyTorch` &nbsp;`NumPy` &nbsp;`pandas` &nbsp;`scikit-learn`  
+`Git` &nbsp;`Linux` &nbsp;`PowerShell`
