@@ -1,6 +1,6 @@
 # Minjae Kim · 김민재
 
-**Graduate Student · Computer & AI, Dongguk University**
+**Graduate Student, Dongguk University**
 
 Computer Vision &nbsp;·&nbsp; Medical Imaging &nbsp;·&nbsp; Multimodal Learning
 
@@ -9,22 +9,39 @@ Computer Vision &nbsp;·&nbsp; Medical Imaging &nbsp;·&nbsp; Multimodal Learnin
 
 <br>
 
-I am a graduate student in the Department of Computer & AI at Dongguk University, with expected graduation in December 2026. My research interests lie in computer vision and medical imaging, particularly how complementary information from multiple views or sensors can improve visual recognition.
+I am a graduate student in the Department of Computer & AI at Dongguk University, with expected graduation in December 2026. I am pursuing a research career in AI and computer vision.
 
-I aim to pursue a research career in AI and computer vision. My current work spans bilateral diabetic retinopathy grading and camera–LiDAR fusion. I am interested in understanding when combining information helps, when it introduces errors, and how models can adapt to these differences.
+My research explores how information from paired images and different sensors can improve visual recognition. I am particularly interested in understanding when fusion helps, when it introduces errors, and how models can adapt to these differences.
 
 <br>
 
-## Research
+## Research & Projects
 
-**Bilateral Diabetic Retinopathy Grading.** *(Ongoing research)*  
-Retinal images from the two eyes contain related information, but disease severity can differ between eyes. I investigate boundary-wise correction and adaptive fusion methods that use fellow-eye information while accounting for bilateral asymmetry. This work compares simple fusion with learned utility, strength, and soft-gating mechanisms, with particular attention to cases where fusion improves an incorrect prediction or harms a correct one.
+### Bilateral Diabetic Retinopathy Grading
 
-**Camera–LiDAR Fusion.** *(Ongoing research)*  
-I am working on camera–LiDAR fusion for multimodal perception, exploring how visual and geometric information can complement one another. My broader interest is in methods that make effective use of the different information available from each sensor.
+**Medical imaging · Ordinal classification · Adaptive fusion**  
+[Repository](https://github.com/chal07088-stack/DR-Classification) &nbsp;·&nbsp;
+[Model implementation](https://github.com/chal07088-stack/DR-Classification/tree/main/idea_work/ours) &nbsp;·&nbsp;
+[Tests](https://github.com/chal07088-stack/DR-Classification/tree/main/tests)
 
-**Reliable and Adaptive Information Fusion.** *(Ongoing research direction)*  
-Across these projects, I study the conditions under which adaptive fusion offers an advantage over simpler alternatives. My work includes controlled comparisons, failure-case analysis, and evaluation of subgroup differences. In medical imaging, I use patient-level data separation and out-of-fold evaluation to examine both predictive performance and the reliability of the evaluation pipeline.
+Retinal images from both eyes provide complementary information, but disease severity can differ between eyes. My research investigates how to use fellow-eye information while accounting for cases where bilateral fusion harms a prediction.
+
+My work includes boundary-wise correction, utility–strength modeling, and soft gating, alongside comparisons with simple fusion and published baseline methods. I examine both overall grading performance and prediction-level benefit and harm.
+
+The repository contains model implementations, experiment configurations, training and evaluation scripts, and tests. **Research is ongoing; the public code documents a specific experiment snapshot.**
+
+### Camera–LiDAR Fusion
+
+**Multimodal perception · Visual and geometric information**  
+[Project page](https://github.com/chal07088-stack/Camera-Lidar-Fusion)
+
+I am also working on camera–LiDAR fusion, exploring how visual and geometric information can complement one another for perception. **This project is in progress; its public repository currently serves as a project overview.**
+
+<br>
+
+## Research Practice
+
+I use controlled ablations, negative controls, and failure-case analysis to assess learned fusion against simpler alternatives. For medical imaging experiments, I work with patient-level splits, out-of-fold evaluation, ordinal metrics, and patient-paired bootstrap analysis.
 
 <br>
 
@@ -32,17 +49,7 @@ Across these projects, I study the conditions under which adaptive fusion offers
 
 **Dongguk University · Graduate School**  
 Department of Computer & AI (컴퓨터AI학과)  
-Expected graduation: December 2026
-
-<br>
-
-## Research & Engineering
-
-**Deep learning pipelines** — Multi-stage image classification, bilateral correction, and adaptive fusion.
-
-**Experimental evaluation** — Controlled ablations, negative controls, ordinal metrics, and patient-paired bootstrap analysis.
-
-**Reproducible research** — Data split validation, feature and checkpoint lineage tracking, and experiment configuration management.
+Expected graduation: **December 2026**
 
 <br>
 
