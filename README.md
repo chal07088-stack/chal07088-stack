@@ -1,6 +1,6 @@
 # Minjae Kim · 김민재
 
-**Graduate Student, Dongguk University**
+**Graduate Student · Computer & AI, Dongguk University**
 
 Computer Vision &nbsp;·&nbsp; Medical Imaging &nbsp;·&nbsp; Multimodal Learning
 
@@ -9,9 +9,9 @@ Computer Vision &nbsp;·&nbsp; Medical Imaging &nbsp;·&nbsp; Multimodal Learnin
 
 <br>
 
-I am a graduate student at Dongguk University, with expected graduation in December 2026. My research interests lie in computer vision and medical imaging, particularly how complementary information from multiple views or sensors can improve visual recognition.
+I am a graduate student in the Department of Computer & AI at Dongguk University, with expected graduation in December 2026. My research interests lie in computer vision and medical imaging, particularly how complementary information from multiple views or sensors can improve visual recognition.
 
-My current work spans bilateral diabetic retinopathy grading and camera–LiDAR fusion. I am interested in understanding when combining information helps, when it introduces errors, and how models can adapt to these differences.
+I aim to pursue a research career in AI and computer vision. My current work spans bilateral diabetic retinopathy grading and camera–LiDAR fusion. I am interested in understanding when combining information helps, when it introduces errors, and how models can adapt to these differences.
 
 <br>
 
@@ -30,8 +30,9 @@ Across these projects, I study the conditions under which adaptive fusion offers
 
 ## Education
 
-**Dongguk University**  
-Graduate studies &nbsp;·&nbsp; Expected graduation: December 2026
+**Dongguk University · Graduate School**  
+Department of Computer & AI (컴퓨터AI학과)  
+Expected graduation: December 2026
 
 <br>
 
